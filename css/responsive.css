@@ -1,0 +1,15 @@
+@media(min-width: 100px) and (max-width: 800px){
+    main div#entrada{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    main div#entrada div#select{
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+    main div#resultado table{
+        margin-left: 125px;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountryPedia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="icon/globo.png" alt="Logo" width="120px" height="80px">
+            <figcaption>CountryPedia</figcaption>
+        </figure>
+        <a href="#saibamais">Saiba Mais</a>
+    </header>
+    <main>
+        <h1>Selecione ou busque o país desejado</h1>
+        <span>Recarregue a página para fazer outra pesquisa</span>
+        <div id="entrada">
+            <div id="select">
+                <select name="paises" id="paises">
+                    <option value="">Selecione</option>
+                    <optgroup id="asia">
+                        <option value="">Ásia</option>
+                    </optgroup>
+                    <optgroup id="africa">
+                        <option value="">África</option>
+                    </optgroup>
+                    <optgroup id="america">
+                        <option value="">América</option>
+                    </optgroup>
+                    <optgroup id="europa">
+                        <option value="">Europa</option>
+                    </optgroup>
+                    <optgroup id="oceania">
+                        <option value="">Oceania</option>
+                    </optgroup>
+                </select>
+                <button id="selectButton">Buscar</button>
+            </div>
+            <div id="input">
+                <input type="text" name="country" id="pais" placeholder="Utilize a mesma formatação do select para a busca">
+                <button id="inputButton">Buscar</button>
+            </div>
+        </div>
+        <div id="resultado">
+            <h1>Resultado da pesquisa:</h1>
+            <table border="3">
+                <tbody></tbody>
+            </table>
+            <div id="historico">
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

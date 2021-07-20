@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+header figure{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+header figure figcaption{
+    margin-left: 5px;
+    color: darkgoldenrod;
+}
+header a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+main{
+    background-color: darkseagreen;
+    text-align: center;
+    font-size: 15px;
+}
+main span{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+main div#entrada{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+main div#entrada div#select{
+    margin-right: 25px;
+}
+main div#entrada div#select select{
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 9px;
+}
+main div#entrada div#select button{
+    width: 80px;
+    border-radius: 9px;
+}
+main div#entrada div#input input{
+    width: 150px;
+    border-radius: 9px;
+}
+main div#entrada div#input button{
+    width: 80px;
+    border-radius: 9px;
+}
+main div#resultado table{
+    margin-left: 550px;
+}
+main div#resultado table td{
+    margin-right: 8px;
+    padding: 5px;
+    background-color: dodgerblue;
+}
+main div#resultado div#historico p{
+    font-size: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
