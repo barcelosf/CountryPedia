@@ -35,7 +35,7 @@ function criaTabela(paises, valores){
             tableRow.appendTo(tbody)
     }
     const h1 = $("<h1>").html("Histórico").appendTo(resultado)
-    const p = $("<p>").html(valores[valores.length-1]).appendTo(resultado)
+    const p = $("<p>").html(valores[valores.length-1]).appendTo(resultado).css("text-align", "justify")
 
 }
 

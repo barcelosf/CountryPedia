@@ -52,7 +52,8 @@ main div#entrada div#input button{
     border-radius: 9px;
 }
 main div#resultado table{
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 main div#resultado table td{
     margin-right: 8px;
